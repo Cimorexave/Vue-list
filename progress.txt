@@ -1,0 +1,31 @@
+The progress of this project/challenge was 
+pretty straight forward. 
+first, the whole app is consisting of two parts;
+one where there is the checkboxes with the icons
+and then there is the part where items appear 
+according to what checkbox has been checked. 
+so in the first step the whole layout was setup;
+header and the checkboxes were put and a component of
+the items were built and imported to the app root.
+then it was time to set out the layout for the items that 
+had three props; the icon, the description and the number.
+the data was added and passed into the items
+for each item seperately.
+Then it was time to add an event and attach it
+to the checkboxes which fire functions that 
+change the state of each item type.
+if it's true it will be shown by a conditional
+rendering inside a div and if it was off like the default 
+unchecked checkboxes nothing will render.
+The rest is pretty simple as well. there is a 
+loop which iterates for each item in the type item.
+And I think that was pretty much it. In order to
+do this project I had to figure out how vue works
+cause I had never worked with it so I had to 
+convert my knowledge and experience from React mostly
+into this. After doing this I must stay I had fun doing it
+and now I fund Vue actually more enjoyable and straight forward
+and easier to work with. 
+And in the end, if there is anything unclear about 
+the code and the process in which I explained
+please go ahead and ask me. 
